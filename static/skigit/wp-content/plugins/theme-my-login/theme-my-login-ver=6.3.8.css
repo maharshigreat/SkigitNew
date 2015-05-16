@@ -1,0 +1,167 @@
+.login {
+	background: none repeat scroll 0 0 #F5F5F5;
+	border: 1px solid #0381C3 ;	
+	box-shadow: 1px 2px 5px #CCCCCC;
+	margin:15px auto 15px auto !important;
+	min-height: 200px;
+	text-align: center;
+	width: 410px;
+	z-index: 999;
+	overflow:hidden;
+	padding:15px 0;
+	border-radius: 6px;
+	max-height: 610px;
+}
+.log_registration{ 
+	width:475px !important;
+	padding-top:25px;
+
+}
+
+.reg_left{ margin:0 0 0 -50px;}
+
+#content-border{min-height: 395px;}
+
+.reg_login_text {
+    float: left;
+    margin: 0px 0 0 115px;
+    width: 60%;
+	display:none;
+}
+.reg_logbtn{float:left;width:25%;}
+
+.reg_logbtn2{float:left;width:60%;}
+
+
+.reg_submit{width:180px; margin:0 auto;}
+
+.reg_text{ 
+	margin:30px 0 20px 0;
+	font-family:'Segoe Print';
+	}
+
+.reg_text a{color:#0381C3;}
+
+.login p.error {
+	padding: 5px;
+	border: 1px solid #c00;
+	background-color: #ffebe8;
+	color: #333;
+	margin:0 5px;
+}
+.login p {
+	display:block;
+	clear:both;
+}
+.login p.message {
+	padding: 5px;
+	/*border: 1px solid #e6db55;
+	background-color: #ffffe0;*/
+	color:#006600;
+	font-weight: bold; font-size: 15px;
+}
+
+#reg_passmail {
+	margin-left:50px;
+}
+
+.log_submit{width:90%; margin:20px 0 0 100px; *margin:5px 0 0 32px ;*width:60%; float:left;}
+
+#loginform{margin:10px auto;}
+
+.login form label {
+	display: block;
+	width:75%;
+	float:left;
+	text-align:left;
+	margin: 10px 0 0 40px;
+	font: bold 12px/24px "segoe print";
+	color:#333;
+}
+.login form p.forgetmenot label {
+	display: inline;
+}
+
+/*.login input[type="text"] {
+margin: 5px 0px 0 100px !important;
+}*/
+
+.login input[type="submit"] {
+	width:auto;
+}
+.login input[type="checkbox"] {
+	width:17px;
+	margin:2px 0 0 5px;
+	height:17px;
+}
+.forgetmenot span {
+	padding: 0 0 0 8px;
+	margin:5px 0 0;
+	float:left;
+}
+.profile .screen-reader-text,  .profile .screen-reader-text span {
+	height: 1px;
+	left: -1000em;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+}
+.mu_register .hint {
+	font-size: 12px;
+	margin-bottom: 10px;
+	display: block;
+}
+.mu_register label.checkbox {
+	display: inline;
+}
+#pass-strength-result {
+	border-style: solid;
+	border-width: 1px;
+	margin: 12px 5px 5px 1px;
+	padding: 3px 5px;
+	text-align: center;
+	width: 200px;
+}
+#pass-strength-result.strong,  #pass-strength-result.short {
+	font-weight: bold;
+}
+#pass-strength-result {
+	background-color: #eee;
+	border-color: #ddd !important;
+}
+#pass-strength-result.bad {
+	background-color: #ffb78c;
+	border-color: #ff853c !important;
+}
+#pass-strength-result.good {
+	background-color: #ffec8b;
+	border-color: #fc0 !important;
+}
+#pass-strength-result.short {
+	background-color: #ffa0a0;
+	border-color: #f04040 !important;
+}
+#pass-strength-result.strong {
+	background-color: #c3ff88;
+	border-color: #8dff1c !important;
+}
+.tml-action-links {
+    margin: 20px 0 0 145px;
+	*margin: 20px 0 0 100px;
+    text-align: center;
+    width: 50%;
+	float:left;
+}
+
+.tml-action-links ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.tml-action-links ul li {
+	float:left;
+font: bold 13px/35px "Segoe Print";
+}
+.tml-action-links ul li a {
+	padding:5px 20px 0 0;
+}
